@@ -160,8 +160,33 @@ main{
 
 /* Inizio footer */
 footer{
-  height: 100px;
+  width: 100%;
   margin-top: 10px;
-  background-color: violet;
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.footer-top .credits{
+  width: 100%;
+  color: lightgray;
+  text-align: center;
+}
+
+.footer-top hr{
+  border: 2px solid gray;
+}
+
+.footer-bottom{
+  width: 100%;
+}
+
+.footer-bottom .social{
+  width: 33%;
+  display: inline-block;
+  font-size: 50px;
+  color: lightgray;
+  padding: 20px 0;
+  text-align: center;
 }
 /* /footer */
