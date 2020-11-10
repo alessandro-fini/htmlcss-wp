@@ -192,5 +192,6 @@ footer{
 
 .footer-bottom .social i:hover{
   cursor: pointer;
+  color: black;
 }
 /* /footer */
