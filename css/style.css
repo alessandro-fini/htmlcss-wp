@@ -189,4 +189,8 @@ footer{
   padding: 20px 0;
   text-align: center;
 }
+
+.footer-bottom .social i:hover{
+  cursor: pointer;
+}
 /* /footer */
