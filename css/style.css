@@ -119,24 +119,42 @@ main{
 
 .col-main{
   width: 60%;
-  height: 250px;
   margin: 0 10px;
-  background-color: lightgreen;
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.col-main h2{
+  color: rgb(60, 60, 60);
+  text-transform: uppercase;
+  text-shadow: 2px 2px lightgray;
+  margin-bottom: 40px;
+}
+
+.col-main p{
+  line-height: 1.8;
 }
 
 .col-right{
   width: calc(20% - 10px);
-  height: 900px;
 }
 
 .col-right .box{
   width: 100%;
-  height: calc(900px / 3 - 10px);
-  background-color: orange;
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
 }
 
 .col-right .box:nth-child(even){
   margin: 10px 0;
+}
+
+.col-right .box h2{
+  color: rgb(60, 60, 60);
+  font-size: 20px;
+  margin-bottom: 40px;
 }
 /* /main */
 
